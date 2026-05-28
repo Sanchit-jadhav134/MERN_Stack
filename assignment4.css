@@ -1,0 +1,39 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+#box1:hover{
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    box-shadow: 3px 3px 10px black
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    right: 200px;
+    bottom: 200px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+#box3{
+     width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transform: skewX(20deg);
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color:lightgreen;
+    box-shadow: 2px 2px 5px green;
+}
+#mypic{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    background-image: url("portfolio.jpeg");
+    background-size: cover;
+    opacity: 50%;
+}

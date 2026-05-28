@@ -1,0 +1,33 @@
+h2{
+    color: rgba(175, 12, 12, 0.208);
+}
+#div1{
+    height: 50px;
+   width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50px;
+background-color: red;
+}
+#div2{
+    height: 50px;
+    font-weight: 50px;
+    border: 2px solid black;
+    margin: 10px;
+background-color: yellow;
+ border-radius: 50px;
+}
+#div3{
+    height: 50px;
+    font-weight: 50px;
+    border: 2px solid black;
+    margin: 10px;
+background-color: green;
+ border-radius: 50px;
+}
+#outer{
+    background-color: black;
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}

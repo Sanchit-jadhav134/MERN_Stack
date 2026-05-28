@@ -1,0 +1,34 @@
+#h1{
+    color: blue !important;
+}
+*{
+    text-align: center;
+}
+h1,h3,h5{
+      font-family:Georgia ;
+}
+p{
+    color: white;
+    background: cornflowerblue;
+}
+.div button{
+    background: purple;
+    color: azure;
+}
+.div button :hover{
+    background: yellow;
+    color: blue;
+}
+p:nth-of-type(odd){
+color: red;
+}
+h1::first-letter{
+    color: red;
+}
+button:active{
+    color: darkgreen;
+    background-color: blue;
+}
+button:hover{
+    background-color: black;
+}
