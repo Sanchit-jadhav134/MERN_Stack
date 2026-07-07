@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css1.css">
+</head>
+<body>
+    <form action="actionPage.html" method="get">
+        <h2>Sport Physical Form</h2>
+        <fieldset>
+        <legend> Attribute Information</legend>
+        <ul>
+            <li> <label for="name" >Name : </label> <input type="text" id="name" placeholder="Enter your name" required> </li> <br>
+             <li><label for="school">School/College : </label> <input type="text" id="school" placeholder="School name" required value="Parul University " readonly></li> <br>
+              <li><label for="parent">Parent/guardeen : </label> <input type="text" id="parent" placeholder="Parent or guardeen " required></li> <br>
+               <li><label for="contact">Contact Number : </label> <input type="number" id="contact" placeholder="contact number required"></li> <br>
+        </ul>
+        </fieldset> 
+        <br>
+        <fieldset> 
+            
+        <legend> Medical History for Athlete</legend>
+        <ul>
+            <li> <label for="history">History of concussion :  <input type="radio" name="con" id="">
+            <label for="">Yes</label> <input type="radio" name="con" id=""><label for=""></label> No</label> </li>
+            <li>Previous surgeries : 
+                <input type="text" id="prev" required>
+            </li>
+            <li><label for="bone">Any bone Fratures ? <input type="radio" name = "son" id="">
+            <label for="">Yes</label> <input type="radio" name="son" id=""><label for=""></label> No</label> </li>
+            </label></li>
+            <li>Asthma or breathing problem : <input type="radio" name = "mon" id="">
+            <label for="">Yes</label> <input type="radio" name="mon" id=""><label for=""></label> No</label> </li>
+            </label></li></li>
+</ul>
+        </fieldset> 
+
+        <fieldset>
+            <legend>Date And Time </legend>
+            <ul>
+            <li><label for="dob">Date</label>
+            <input type="date" id="dob" name="dob"></li>
+            <li><label for="time">Time</label>
+            <input type="time" id="time" name="time"></li>
+            <li><label for="date-time">Date_time</label>
+            <input type="datetime-local" id="time" name="time"></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>TextArea</legend>
+            <p><b>Feedback of page </b></p>
+            <textarea name="" id="" placeholder="Write your summary"></textarea>
+        </fieldset>
+        <fieldset><legend>File input</legend>
+            <label for="med"> Drop Your last medical report  : </label>
+            <input type="file" name="medical" id="med" accept=".html">
+            <br>
+            <label for=""> choose Your Proffession : </label>
+            <br>
+             <li> <input type="checkbox" id="check" name="a"> <label for="check">web-Developer</label> </li>
+           <li> <input type="checkbox" id="check1" name="b"> <label for="check1">Trader</label> </li>
+           <li> <input type="checkbox" id="check2" name="c"> <label for="check2">Software-Engg</label> </li>
+        </fieldset>
+       <button type="submit">Submit</button>
+       <button type="reset">Reset</button>
+</body>
+</html>
+
+

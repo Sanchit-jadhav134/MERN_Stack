@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#0f172a;
+    overflow:hidden;
+}
+
+/* Container */
+.container{
+    width:900px;
+    height:120px;
+    position:relative;
+}
+
+/* Moves left and right */
+.ball-wrapper{
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    animation:move 8s linear infinite;
+}
+
+/* Football rotates only */
+.ball{
+    width:90px;
+    display:block;
+    animation:spin 1.2s linear infinite;
+    filter:drop-shadow(0 0 20px rgba(255,255,255,.4));
+}
+
+/* Straight movement + size change */
+@keyframes move{
+
+    0%{
+        left:0;
+        transform:translateY(-50%) scale(0.6);
+    }
+
+    25%{
+        transform:translateY(-50%) scale(0.8);
+    }
+
+    50%{
+        left:calc(100% - 90px);
+        transform:translateY(-50%) scale(1.5);
+    }
+
+    75%{
+        transform:translateY(-50%) scale(0.8);
+    }
+
+    100%{
+        left:0;
+        transform:translateY(-50%) scale(0.6);
+    }
+
+}
+
+/* Football rotation */
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA X - Futuristic Experience</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader">
+        <h1>Sanchit_AI</h1>
+        <div class="loader-bar">
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow"></div>
+
+    <!-- Animated Background -->
+    <div class="gradient-bg"></div>
+
+    <!-- Particles -->
+    <div id="particles"></div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Sanchit_AI</div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#stats">Stats</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="nav-btn">
+            Get Started
+        </button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <span class="tag">
+                🚀 Future Technology
+            </span>
+
+            <h1>
+                Build The Future
+                <span>With AI</span>
+            </h1>
+
+            <p>
+                A futuristic experience powered by
+                innovation, intelligence and beautiful design.
+            </p>
+
+            <div class="hero-buttons">
+
+              <button class="primary-btn" id="startBtn">
+    Start Now
+</button>
+
+<button class="nav-btn" id="getBtn">
+    Get Started
+</button>
+
+            </div>
+
+        </div>
+
+        <div class="hero-orb"></div>
+
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" id="stats">
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="150">0</h2>
+            <p>K+ Users</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="99">0</h2>
+            <p>% Uptime</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="50">0</h2>
+            <p>Countries</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="24">0</h2>
+            <p>/7Support</p>
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+
+        <h2 class="section-title">
+            Powerful Features
+        </h2>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <div class="icon">🤖</div>
+                <h3>AI Assistant</h3>
+                <p>
+                    Smart automation and intelligent workflows.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">⚡</div>
+                <h3>Lightning Fast</h3>
+                <p>
+                    Optimized infrastructure for speed.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">🔒</div>
+                <h3>Secure</h3>
+                <p>
+                    Enterprise-grade security and encryption.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">📊</div>
+                <h3>Analytics</h3>
+                <p>
+                    Real-time insights and performance tracking.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">☁️</div>
+                <h3>Cloud Sync</h3>
+                <p>
+                    Access your data anywhere instantly.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">🌍</div>
+                <h3>Global Reach</h3>
+                <p>
+                    Connect users worldwide seamlessly.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="reviews">
+
+        <h2 class="section-title">
+            Loved By Users
+        </h2>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial">
+                <p>
+                    "One of the most beautiful platforms I've used."
+                </p>
+                <h4>⭐⭐⭐⭐⭐</h4>
+            </div>
+
+            <div class="testimonial">
+                <p>
+                    "The futuristic design is absolutely incredible."
+                </p>
+                <h4>⭐⭐⭐⭐⭐</h4>
+            </div>
+
+            <div class="testimonial">
+                <p>
+                    "Fast, modern and extremely intuitive."
+                </p>
+                <h4>⭐⭐⭐⭐⭐</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="contact">
+
+        <h2>
+            Ready To Start?
+        </h2>
+
+        <p>
+            Join thousands of users building the future.
+        </p>
+
+        <button class="primary-btn">
+            Join Now
+        </button>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">
+           Sanchit_AI
+        </div>
+
+        <p>
+            © 2026 All Rights Reserved
+        </p>
+
+    </footer>
+<div class="video-popup">
+
+    <div class="video-box">
+
+        <span class="close-video">&times;</span>
+
+        <iframe
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        allowfullscreen>
+        </iframe>
+
+    </div>
+
+</div>
+    <script src="script.js"></script>
+
+</body>
+</html>
